@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Taylor Griggs Resume</title>
+  </head>
+  <body>
+    <header>
+      <h1>Taylor Griggs</h1>
+    </header>
+    <header>
+    <nav>
+       <ul>
+         <li><a href='homepage.html'>Home</a></li>
+         <li><a href='about_me.html'>About Me</a></li>
+         <li><a href='#'>Resume</a></li>
+         <li><a href='#'>Achievments</a></li>
+         <li><a href='contact.html'>Contact</a></li>
+       </ul>
+      </nav>
+    </header>
+    <section class="Contact">
+      <h2>Contact Me</h2>
+      <p><b>If you would like to get in contact with me, please leave your first and last name, email, and a message and I will get back with you as soon as possible!</b></p>
+    </section>
+    <form action="scripts/action.php" method="post">
+      <label for="full-name">Please enter your first and last name: </label>
+      <input type="text" name="full-name" id="full-name" required>
+      <br>
+      <br>
+      <label for="email">Please enter your email: </label>
+      <input type="text" name="email" id="email" required>
+    </form>
+
+    <br>
+
+    <form action="scripts/action.php" method="post">
+      <label for="message">Enter message here: </label>
+      <textarea id="message" name="message" rows="5" cols="40">
+      </textarea>
+      <br>
+      <br>
+      <input type="submit" value="Submit">
+      </form>
+
+  <footer>
+    <p><b>Email:</b>taylor.griggs@uky.edu</p>
+    <p><b>Resume:</b><a href="https://drive.google.com/file/d/1u5sXP96lNZTHqqYcDI1CbQcA2phMFOSC/view?usp=sharing"
+      target="_blank">Download Resume</a></p>
+    <p><b>Phone Number:</b>123-456-7890</p>
+    <small>Copyright Taylor Griggs, 2020</small>
+  </footer>
+
+ </body>
+ </html>
