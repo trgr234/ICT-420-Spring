@@ -63,6 +63,10 @@ form {
   font-style:italic;
 }
 
+#uky{
+  font-style: italic;
+}
+
 .introduction{
   border: 1px solid black;
 }
@@ -87,7 +91,7 @@ form {
   font-weight: bold;
 }
 
-#email{
+#myemail{
   font-weight: bold;
 }
 
