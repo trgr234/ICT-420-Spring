@@ -6,6 +6,14 @@ h1 {
   font-family: Times, serif;
 }
 
+#Taylor_Griggs{
+  border: 1px solid black;
+  width: 90px;
+  height: 70px;
+  padding: 10px;
+  margin: 10px;
+}
+
 nav {
   font-family: Times, serif;
   text-align: center;
@@ -49,6 +57,42 @@ section {
 form {
   background-color: #cdd4dd;
   line-height: 2;
+}
+
+#uk{
+  font-style:italic;
+}
+
+.introduction{
+  border: 1px solid black;
+}
+
+.about_me{
+  border: 1px solid black;
+}
+
+.goals_and_plans{
+  border: 1px solid black;
+}
+
+#picture{
+  border: 5px solid black;
+}
+
+#phone{
+  font-weight: bold;
+}
+
+#resume_download{
+  font-weight: bold;
+}
+
+#email{
+  font-weight: bold;
+}
+
+#copyright{
+  font-size: 0.7rem
 }
 
 footer{
