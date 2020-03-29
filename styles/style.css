@@ -19,6 +19,14 @@ nav {
   text-align: center;
 }
 
+a[href] {
+  font-weight: bold;
+}
+
+a:visited {
+  color:blue;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -57,6 +65,16 @@ section {
 form {
   background-color: #cdd4dd;
   line-height: 2;
+}
+
+p::selection {
+  background-color: white;
+  color: hotpink;
+}
+
+h2::selection {
+  background-color: white;
+  color: hotpink;
 }
 
 #uk{
