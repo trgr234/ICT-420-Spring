@@ -12,6 +12,7 @@ h1 {
   height: 70px;
   padding: 10px;
   margin: 10px;
+  background-color: #cdd4dd;
 }
 
 nav {
@@ -27,17 +28,16 @@ a:visited {
   color:blue;
 }
 
+ul li {
+  float: left;
+  border: 1px solid black;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #cdd4dd;
-}
-
-li {
-  float: left;
-  border-right: 1px solid black;
 }
 
 li a {
@@ -46,6 +46,7 @@ li a {
   text-align: center;
   padding: 16px;
   text-decoration: none;
+  background-color: #cdd4dd;
 }
 
 li a:hover {
@@ -83,18 +84,6 @@ h2::selection {
 
 #uky{
   font-style: italic;
-}
-
-.introduction{
-  border: 1px solid black;
-}
-
-.about_me{
-  border: 1px solid black;
-}
-
-.goals_and_plans{
-  border: 1px solid black;
 }
 
 #picture{
