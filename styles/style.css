@@ -24,10 +24,6 @@ a[href] {
   font-weight: bold;
 }
 
-a:visited {
-  color:blue;
-}
-
 ul li {
   float: left;
   border: 1px solid black;
@@ -39,6 +35,11 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #cdd4dd;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
 
 li {
@@ -91,8 +92,16 @@ h2::selection {
   font-style: italic;
 }
 
+#About_Me {
+  display: grid;
+  grid-template-columns: 8fr 2fr 2fr;
+  padding-top: 10px;
+}
+
 #picture{
   border: 5px solid black;
+  display: grid;
+  grid-template-columns: 8fr 2fr 2fr;
 }
 
 #phone{
