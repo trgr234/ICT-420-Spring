@@ -84,6 +84,21 @@ h2::selection {
   color: hotpink;
 }
 
+#main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  gap: 50px;
+  padding-left: 300px;
+}
+
+#main_second{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  gap: 50px;
+}
+
 #uk{
   font-style:italic;
 }
@@ -92,28 +107,26 @@ h2::selection {
   font-style: italic;
 }
 
-#About_Me {
-  display: grid;
-  grid-template-columns: 8fr 2fr 2fr;
-  padding-top: 10px;
-}
-
 #picture{
   border: 5px solid black;
-  display: grid;
-  grid-template-columns: 8fr 2fr 2fr;
 }
 
 #phone{
   font-weight: bold;
+  border: 1px solid black;
+  text-align: center;
 }
 
 #resume_download{
   font-weight: bold;
+  border: 1px solid black;
+  text-align: center;
 }
 
 #myemail{
   font-weight: bold;
+  border: 1px solid black;
+  text-align: center
 }
 
 #copyright{
@@ -123,4 +136,8 @@ h2::selection {
 footer{
   background-color: #85abda;
   font-family: Times, serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  gap: 20px;
 }
