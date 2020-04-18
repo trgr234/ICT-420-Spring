@@ -24,15 +24,10 @@ a[href] {
   font-weight: bold;
 }
 
-ul li {
+nav ul li {
   float: left;
   border: 1px solid black;
-}
-
-ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: #cdd4dd;
 }
@@ -40,11 +35,6 @@ ul {
 nav ul {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-}
-
-li {
-  float: left;
-  border-right: 1px solid black;
 }
 
 li a {
@@ -107,7 +97,7 @@ h2::selection {
   font-style: italic;
 }
 
-#picture{
+#picture1{
   border: 5px solid black;
 }
 
