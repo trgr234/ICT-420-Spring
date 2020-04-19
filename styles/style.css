@@ -2,6 +2,11 @@ header {
   background-color: #85abda;
 }
 
+body{
+  padding: 0;
+  margin: 0;
+}
+
 h1 {
   font-family: Times, serif;
 }
@@ -30,15 +35,19 @@ nav ul li {
   list-style-type: none;
   overflow: hidden;
   background-color: #cdd4dd;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0;
+  margin: 0;
 }
 
 li a {
-  display: block;
+  display: inline-block;
   color: black;
   text-align: center;
   padding: 16px;
@@ -49,14 +58,24 @@ li a:hover {
   background-color: #E5E8E8;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 main {
   background-color: #cdd4dd;
   font-family: Arial, sans-serif;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 section {
   background-color: #cdd4dd;
+  padding: 0;
+  margin: 0;
 }
 
 form {
@@ -82,6 +101,10 @@ h2::selection {
   padding-left: 300px;
 }
 
+#About_Me{
+  line-height: 2;
+}
+
 #main_second{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -99,6 +122,29 @@ h2::selection {
 
 #picture1{
   border: 5px solid black;
+}
+
+#introduction{
+  line-height: 2;
+}
+
+#about_me{
+  line-height: 2;
+}
+
+#goals_and_plans{
+  line-height: 2;
+}
+
+#fun_facts{
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 2;
+}
+
+#Contact{
+  line-height: 2;
 }
 
 #phone{
