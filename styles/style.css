@@ -3,6 +3,8 @@ header {
   margin: 0;
   padding: 1.5em;
   border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 body{
@@ -33,6 +35,7 @@ p {
   padding: 0;
   margin: 0;
   background-color: #cdd4dd;
+  max-width: 100%
 }
 
 nav {
@@ -58,7 +61,7 @@ nav ul li {
 
 nav ul {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   padding: 0;
   margin: 0;
 }
@@ -113,16 +116,19 @@ h2::selection {
 
 #main{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
-  grid-auto-rows: minmax(100px, auto);
-  grid-gap: 70px;
-  gap: 70px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 20px;
+  gap: 20px;
+  padding: 0 2em 0 2em;
   align-items: center;
+  margin: 0;
 }
 
 #About_Me{
   line-height: 2;
   text-align: center;
+  grid-column: 2;
+  padding-bottom: 1em;
 }
 
 #main_second{
@@ -131,6 +137,7 @@ h2::selection {
   grid-auto-rows: minmax(100px, auto);
   grid-gap: 10px;
   gap: 10px;
+  padding: 1em;
 }
 
 #uk{
@@ -145,6 +152,12 @@ h2::selection {
   border: 5px solid black;
   max-width: 100%;
   height: auto;
+  grid-column: 4;
+}
+
+#links{
+  text-align: center;
+  border: 3px solid black;
 }
 
 #introduction{
@@ -159,7 +172,6 @@ h2::selection {
   line-height: 2;
 }
 
-
 figure{
   align-items: center;
   margin: auto;
@@ -167,6 +179,8 @@ figure{
 
 #uky_picture{
   border: 3px solid black;
+  max-width: 100%;
+  height: auto;
 }
 
 figcaption{
@@ -187,6 +201,7 @@ figcaption{
 }
 
 #Contact{
+  line-height: 2;
   margin: 0;
   padding: 0;
 }
