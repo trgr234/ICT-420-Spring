@@ -15,9 +15,10 @@
          <li><a href='about_me.html'>About Me</a></li>
          <li><a href='contact.html'>Contact</a></li>
        </ul>
-      </nav>
+    </nav>
     </header>
 
+    <main>
     <section id="Contact">
       <h2>Contact Me</h2>
       <p><b>If you would like to get in contact with me, please leave your first and last name, email, and a message and I will get back with you as soon as possible!</b></p>
@@ -29,16 +30,26 @@
       <label for="email">Please enter your email: </label>
       <input type="text" name="email" id="email" required>
     </form>
-    </section>
 
     <form action="scripts/action.php" method="post">
       <label for="message">Enter message here: </label>
       <textarea id="message" name="message" rows="5" cols="40">
       </textarea>
+    </form>
+
+      <p><b>You know what would also be fun to know about my lovely vistors...
+        some interesting facts about yourselves! That is why, if you would like to share, I would love to hear them!</b></p>
+
+      <form action="scripts/action.php" method="post">
+        <label for="interesting-facts">Interesting Facts about You: </label>
+        <textarea id="interesting-facts" name="interesting-facts" rows="5" cols="40">
+        </textarea>
       <br>
       <br>
       <input type="submit" value="Submit">
-      </form>
+    </form>
+    </section>
+    </main>
 
   <footer>
     <p id="myemail">Email: taylor.griggs@uky.edu</p>

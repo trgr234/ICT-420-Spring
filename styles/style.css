@@ -1,8 +1,12 @@
 header {
   background-color: #85abda;
+  margin: 0;
+  padding: 1.5em;
+  border: 1px solid black;
 }
 
 body{
+  border: 1px solid black;
   padding: 0;
   margin: 0;
 }
@@ -11,18 +15,31 @@ h1 {
   font-family: Times, serif;
 }
 
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
 #Taylor_Griggs{
   border: 1px solid black;
-  width: 90px;
-  height: 70px;
-  padding: 10px;
-  margin: 10px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
   background-color: #cdd4dd;
 }
 
 nav {
   font-family: Times, serif;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 a[href] {
@@ -59,7 +76,8 @@ li a:hover {
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: square;
+  list-style-position: inside;
   padding: 0;
   margin: 0;
 }
@@ -95,23 +113,24 @@ h2::selection {
 
 #main{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
   grid-auto-rows: minmax(100px, auto);
-  grid-gap: 50px;
-  gap: 50px;
+  grid-gap: 70px;
+  gap: 70px;
   align-items: center;
 }
 
 #About_Me{
   line-height: 2;
+  text-align: center;
 }
 
 #main_second{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 3fr));
   grid-auto-rows: minmax(100px, auto);
-  grid-gap: 50px;
-  gap: 50px;
+  grid-gap: 10px;
+  gap: 10px;
 }
 
 #uk{
@@ -124,6 +143,8 @@ h2::selection {
 
 #picture1{
   border: 5px solid black;
+  max-width: 100%;
+  height: auto;
 }
 
 #introduction{
@@ -138,6 +159,22 @@ h2::selection {
   line-height: 2;
 }
 
+
+figure{
+  align-items: center;
+  margin: auto;
+}
+
+#uky_picture{
+  border: 3px solid black;
+}
+
+figcaption{
+  text-align: center;
+  font: italic smaller sans-serif;
+  padding: 3px;
+}
+
 #fun_facts{
   text-align: center;
   padding-left: 50px;
@@ -145,8 +182,13 @@ h2::selection {
   line-height: 2;
 }
 
+#funfacts{
+  font-weight: bold;
+}
+
 #Contact{
-  line-height: 2;
+  margin: 0;
+  padding: 0;
 }
 
 #phone{
@@ -174,8 +216,11 @@ h2::selection {
 footer{
   background-color: #85abda;
   font-family: Times, serif;
+  border: 1px solid black;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 10px;
+  grid: 10px;
+  margin: 0;
+  padding: 1em;
 }
